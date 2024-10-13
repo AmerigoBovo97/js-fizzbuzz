@@ -2,7 +2,7 @@
 const nInput = document.getElementById("nInput");
 const fizzBuzzForm = document.getElementById("fizz-buzz-form");
 const displayResult = document.getElementById("fizz-buzz-displayer");
-let newTableRow = (resultValue) => `<tr><td>${resultValue}</td></tr>`;
+let newTableRow = (resultValue) => `<tr><td class="fw-bold">${resultValue}</td></tr>`;
 
 // logic variables
 const fizzDivisor = 3;
